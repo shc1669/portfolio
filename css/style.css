@@ -86,6 +86,37 @@ body {
 	background-color: #fff;
 }
 
+@font-face {
+	font-family: 'UhBeeQUEENJ';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeQUEENJ.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+.font_style {
+	font-family: 'UhBeeQUEENJ';
+}
+
+.aboutme {
+	font-family: 'Pretendard-Regular';
+}
+
 [tabindex='-1']:focus {
 	outline: 0 !important;
 }
@@ -9311,7 +9342,7 @@ button.bg-dark:focus {
 }
 
 .font-weight-normal {
-	font-weight: 400 !important;
+	font-weight: 500 !important;
 }
 
 .font-weight-normal2 {
@@ -9673,7 +9704,7 @@ h5,
 	padding-bottom: 0.5rem !important;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin-top: 6px !important;
+	@ㄹmargin-top: 6px !important;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	-ms-border-radius: 30px;
@@ -9994,10 +10025,18 @@ h5,
 	font-weight: 300 !important;
 }
 .ftco-section-featured .heading-section h2 strong {
-	font-weight: 700;
+	font-weight: 600;
 	color: #efac78;
 	background: #fdf2ea;
 }
+
+.highlight {
+	font-weight: 400;
+	color: #efac78;
+	background: #fdf2ea;
+	margin: 10px;
+}
+
 .ftco-section-featured.ftco-section-featured-2 {
 	margin-top: 0 !important;
 	padding-top: 7em;
@@ -10077,6 +10116,7 @@ h5,
 	-ms-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
+
 .ftco-section-featured .featured-img:hover {
 	z-index: 1;
 }
@@ -10614,7 +10654,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-	padding: 13em 0;
+	padding: 5em 0;
 	position: relative;
 }
 @media (max-width: 767.98px) {
@@ -11003,8 +11043,7 @@ textarea.form-control {
 .blog-entry .meta > div {
 	display: inline-block;
 	margin-right: 5px;
-	margin-bottom: 5px;
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 .blog-entry .meta > div a {
 	color: #a5a5ab;
@@ -11762,6 +11801,13 @@ textarea.form-control {
 		stroke-dashoffset: -136px;
 	}
 }
+
+.imgcenter{
+	text-align: center;
+
+}
+
+
 
 .text-subtitle {
 	font-weight: bold;
